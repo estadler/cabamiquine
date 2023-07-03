@@ -101,6 +101,6 @@ ggsave(glue::glue("output/Stochastic-model-plot-CI_{Sys.Date()}_{cur_time}.png")
 
 # cleanup -----------------------------------------------------------------
 
-rm(init_sus_par,mut_prob,n_gen,n_sim,sim_frac,cur_time,vis_sim,sim_summary,det_model,det_mod_frac_res_equil,p_stoch,
+rm(init_sus_par,n_gen,n_sim,sim_frac,cur_time,vis_sim,sim_summary,det_model,det_mod_frac_res_equil,p_stoch,
    sim_frac_summary,p_data,p_summary)
 
