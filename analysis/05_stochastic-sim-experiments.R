@@ -16,7 +16,7 @@ sens_analysis_do <- TRUE # do a sensitivity analysis for all the experiments spe
 # parameters for the model ------------------------------------------------
 
 # default paramters initialized in setup.R, and:
-n_sim <- 1#e5 # number of simulations of experiments
+n_sim <- 1e5 # number of simulations of experiments
 eq <- det_mod_equil_par(n_res_mut,mut_rate,fitn_cost,pmr) # equilibrium distribution of resistant parasites with standard parameters
 
 # load the data-specific parameters: 
